@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Cleaning - Data from DOSM</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+        <style>
+            html, body { width: 100% }
+        </style>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Portfolio Page <span>of Amanina Abiden</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Homepage</a></li>
+							<!--<li class="submenu">
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li class="submenu">
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Dolore Sed</a></li>
+											<li><a href="#">Consequat</a></li>
+											<li><a href="#">Lorem Magna</a></li>
+											<li><a href="#">Sed Magna</a></li>
+											<li><a href="#">Ipsum Nisl</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="button primary">Sign Up</a></li>-->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<img src="images/before clean arrange.PNG" alt="" height="300px"/>
+						<h3><strong>Data Cleaning - Data from DOSM</strong></h3>
+						<p>Cleaning a table that was made for human-readability and transform it to a format that can be used for data analysis.</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+										<p>So for this project, I downloaded this data table from the Department of Statistics Malaysia and found out 
+											that they made this table in excel but was meant to be put in a pdf file, hence it was made with a lot of merges and spaces 
+											littered everywhere all over the table. Meaning it was not usable for data exploration later. 
+											<br/>
+											Yeah, a table with just this much data could be cleaned much faster on Excel but imagine if there are hundreds of thousands of rows.. 
+											It would take forever. At least with SQL, we could copy paste the coding over and over again. Heheh
+
+											<ul>
+												<li>Source code (SQL) : <a href="https://github.com/AmaninaAbiden/PortfolioProjects.github.io/blob/main/Data%20Cleaning%20-%20Internet%20Activity%20table.sql">GitHub</a></li>
+
+											</ul></p>
+										<img class="special container" src="images/before clean in SQL.PNG" alt=""/>
+										<br/>
+										<p>This is how it looked when I first read the table in the SQL. There are two languages in one cell and random spaces between words @.@</p>
+										<br/>
+										<img src="images/clean arrange.PNG" alt="" class="center"/>
+										<br/>
+										<p>And this is how it looks after it has been cleaned. Now we can use it for exploration and analysis!</p>	
+										<br/>
+										
+                                    </section>
+								</div>
+
+						</section>
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="https://github.com/AmaninaAbiden" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://linkedin.com/in/amaninaabiden" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Amanina</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
